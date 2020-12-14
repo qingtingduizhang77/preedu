@@ -1,0 +1,302 @@
+2020-12-11 13:59:49,674 [restartedMain] INFO  com.tware.PreeduWebServerApplication:50 - Starting PreeduWebServerApplication on 360PC-20151102P with PID 10032 (D:\svn\preedu\backend\out\production\classes started by Administrator in D:\svn\preedu\backend)
+2020-12-11 13:59:49,676 [restartedMain] INFO  com.tware.PreeduWebServerApplication:652 - The following profiles are active: dev
+2020-12-11 13:59:49,852 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-11 13:59:49,853 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-11 13:59:51,495 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 13:59:51,497 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-11 13:59:51,632 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 123ms. Found 12 repository interfaces.
+2020-12-11 13:59:51,648 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-11 13:59:51,649 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-11 13:59:51,672 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tware.sysTeacherStaff.repository.SysTeacherAchievementRepository.
+2020-12-11 13:59:51,672 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tware.sysTeacherStaff.repository.SysTeacherCertificationRegisterRepository.
+2020-12-11 13:59:51,673 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tware.sysTeacherStaff.repository.SysTeacherCertificationRepository.
+2020-12-11 13:59:51,673 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tware.sysTeacherStaff.repository.SysTeacherExamineRepository.
+2020-12-11 13:59:51,673 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tware.sysTeacherStaff.repository.SysTeacherFamilyTiesRepository.
+2020-12-11 13:59:51,674 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tware.sysTeacherStaff.repository.SysTeacherHeTongRepository.
+2020-12-11 13:59:51,674 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tware.sysTeacherStaff.repository.SysTeacherJobRepository.
+2020-12-11 13:59:51,675 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tware.sysTeacherStaff.repository.SysTeacherPastStudyRepository.
+2020-12-11 13:59:51,675 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tware.sysTeacherStaff.repository.SysTeacherStudioRepository.
+2020-12-11 13:59:51,675 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tware.sysTeacherStaff.repository.SysTeacherTitleRepository.
+2020-12-11 13:59:51,676 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tware.sysTeacherStaff.repository.SysTeacherTrainingInfoRepository.
+2020-12-11 13:59:51,676 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tware.sysTeacherStaff.repository.SysTeacherWorkExperienceRepository.
+2020-12-11 13:59:51,677 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2020-12-11 13:59:52,132 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$58c380f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:52,224 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroConfig' of type [com.tware.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$1e4d9390] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:52,281 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration' of type [org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$3387902e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:52,285 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari$$EnhancerBySpringCGLIB$$9942eae4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:52,305 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:52,328 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:52,347 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:52,354 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'inMemoryDatabaseShutdownExecutor' of type [org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$NonEmbeddedInMemoryDatabaseShutdownExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:52,363 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties' of type [org.springframework.boot.autoconfigure.orm.jpa.JpaProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:52,369 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties' of type [org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:52,374 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$$EnhancerBySpringCGLIB$$ed377c01] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:52,384 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:52,387 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:52,392 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration$$EnhancerBySpringCGLIB$$b91aa8db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:52,396 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'hikariPoolDataSourceMetadataProvider' of type [org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration$$Lambda$491/1009819539] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:52,406 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' of type [org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$779a4366] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:52,432 [restartedMain] WARN  com.zaxxer.hikari.HikariConfig:1008 - {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2020-12-11 13:59:52,433 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2020-12-11 13:59:52,474 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-12-11 13:59:52,481 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'jpaVendorAdapter' of type [org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:52,487 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'entityManagerFactoryBuilder' of type [org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:52,527 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-11 13:59:52,583 [restartedMain] INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.3.12.Final}
+2020-12-11 13:59:52,585 [restartedMain] INFO  org.hibernate.cfg.Environment:213 - HHH000206: hibernate.properties not found
+2020-12-11 13:59:52,741 [restartedMain] INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-11 13:59:52,909 [restartedMain] INFO  org.hibernate.dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-12-11 13:59:53,302 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean '(inner bean)#5ad42022' of type [org.springframework.beans.factory.config.ObjectFactoryCreatingFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:53,304 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean '(inner bean)#5ad42022' of type [org.springframework.beans.factory.config.ObjectFactoryCreatingFactoryBean$TargetBeanObjectFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,283 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-11 13:59:54,290 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'entityManagerFactory' of type [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,303 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'entityManagerFactory' of type [com.sun.proxy.$Proxy127] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,314 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.orm.jpa.SharedEntityManagerCreator#0' of type [com.sun.proxy.$Proxy129] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,482 [restartedMain] INFO  s.f.jpaquery.repository.SwallBaseRepository:160 - 初始化SwallBaseRepository(com.tware.user.repository.UserRepository)查询语句为:select user, T_MUser_MangerUser_Creator.name, T_MUser_MangerUser_Modifer.name
+from User user
+  left join User T_MUser_MangerUser_Creator with user.creator = T_MUser_MangerUser_Creator.id
+  left join User T_MUser_MangerUser_Modifer with user.modifier = T_MUser_MangerUser_Modifer.id
+2020-12-11 13:59:54,482 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'userRepository' of type [com.tware.user.repository.UserRepository] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,512 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'userService' of type [com.tware.user.service.UserService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,523 [restartedMain] INFO  s.f.jpaquery.repository.SwallBaseRepository:160 - 初始化SwallBaseRepository(com.tware.user.repository.UserRoleRelationRepository)查询语句为:select userRoleRelation, T_MUser_MangerUser_Creator.name, T_MUser_MangerUser_Modifer.name
+from UserRoleRelation userRoleRelation
+  left join User T_MUser_MangerUser_Creator with userRoleRelation.creator = T_MUser_MangerUser_Creator.id
+  left join User T_MUser_MangerUser_Modifer with userRoleRelation.modifier = T_MUser_MangerUser_Modifer.id
+2020-12-11 13:59:54,524 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'userRoleRelationRepository' of type [com.tware.user.repository.UserRoleRelationRepository] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,535 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'userRoleRelationService' of type [com.tware.user.service.UserRoleRelationService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,549 [restartedMain] INFO  s.f.jpaquery.repository.SwallBaseRepository:160 - 初始化SwallBaseRepository(com.tware.kindergarten.repository.SysKindergartenRepository)查询语句为:select sysKindergarten, T_MUser_MangerUser_Creator.name, T_MUser_MangerUser_Modifer.name
+from SysKindergarten sysKindergarten
+  left join User T_MUser_MangerUser_Creator with sysKindergarten.creator = T_MUser_MangerUser_Creator.id
+  left join User T_MUser_MangerUser_Modifer with sysKindergarten.modifier = T_MUser_MangerUser_Modifer.id
+2020-12-11 13:59:54,549 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'sysKindergartenRepository' of type [com.tware.kindergarten.repository.SysKindergartenRepository] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,566 [restartedMain] INFO  s.f.jpaquery.repository.SwallBaseRepository:160 - 初始化SwallBaseRepository(com.tware.org.repository.SysOrgRepository)查询语句为:select sysOrg, T_MUser_MangerUser_Creator.name, T_MUser_MangerUser_Modifer.name
+from SysOrg sysOrg
+  left join User T_MUser_MangerUser_Creator with sysOrg.creator = T_MUser_MangerUser_Creator.id
+  left join User T_MUser_MangerUser_Modifer with sysOrg.modifier = T_MUser_MangerUser_Modifer.id
+2020-12-11 13:59:54,567 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'sysOrgRepository' of type [com.tware.org.repository.SysOrgRepository] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,576 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'sysOrgService' of type [com.tware.org.service.SysOrgService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,586 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.jdbc-org.springframework.boot.autoconfigure.jdbc.JdbcProperties' of type [org.springframework.boot.autoconfigure.jdbc.JdbcProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,587 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration$JdbcTemplateConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration$JdbcTemplateConfiguration$$EnhancerBySpringCGLIB$$714eaf64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,595 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'jdbcTemplate' of type [org.springframework.jdbc.core.JdbcTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,608 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration$NamedParameterJdbcTemplateConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration$NamedParameterJdbcTemplateConfiguration$$EnhancerBySpringCGLIB$$632fa694] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,616 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'namedParameterJdbcTemplate' of type [org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,620 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'JDBCDaoImp' of type [com.tware.common.service.JDBCDaoImp] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,621 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'sysKindergartenService' of type [com.tware.kindergarten.service.SysKindergartenService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,622 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroRealm' of type [com.tware.config.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,631 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration$$EnhancerBySpringCGLIB$$4e5aac33] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,638 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,643 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$6ddd3f41] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,728 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,795 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,816 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,827 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'sessionRedisUtil' of type [com.tware.config.shiro.SessionRedisUtil] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,829 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisSessionDAO' of type [org.crazycake.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,832 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,844 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,845 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dataFilterConfig' of type [com.tware.config.filter.DataFilterConfig$$EnhancerBySpringCGLIB$$aeabbb14] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,859 [restartedMain] INFO  s.f.jpaquery.repository.SwallBaseRepository:160 - 初始化SwallBaseRepository(com.tware.user.repository.UserAreaRelationRepository)查询语句为:select userAreaRelation, T_MUser_MangerUser_Creator.name, T_MUser_MangerUser_Modifer.name
+from UserAreaRelation userAreaRelation
+  left join User T_MUser_MangerUser_Creator with userAreaRelation.creator = T_MUser_MangerUser_Creator.id
+  left join User T_MUser_MangerUser_Modifer with userAreaRelation.modifier = T_MUser_MangerUser_Modifer.id
+2020-12-11 13:59:54,860 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'userAreaRelationRepository' of type [com.tware.user.repository.UserAreaRelationRepository] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,869 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'userAreaRelationService' of type [com.tware.user.service.UserAreaRelationService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,877 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'userManagerService' of type [com.tware.user.service.UserManagerService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,882 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'areaFilterCauseProvider' of type [com.tware.config.filter.provider.AreaFilterCauseProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:54,884 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dataFilterAdvisor' of type [com.tware.config.filter.DataFilterAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-11 13:59:55,273 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9500 (http)
+2020-12-11 13:59:55,288 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9500"]
+2020-12-11 13:59:55,298 [restartedMain] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2020-12-11 13:59:55,299 [restartedMain] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2020-12-11 13:59:55,455 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2020-12-11 13:59:55,456 [restartedMain] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 5603 ms
+2020-12-11 13:59:55,665 [restartedMain] INFO  s.f.jpaquery.repository.SwallBaseRepository:160 - 初始化SwallBaseRepository(com.tware.config.repository.SysConfigRepository)查询语句为:select sysConfig, T_MUser_MangerUser_Creator.name, T_MUser_MangerUser_Modifer.name
+from SysConfig sysConfig
+  left join User T_MUser_MangerUser_Creator with sysConfig.creator = T_MUser_MangerUser_Creator.id
+  left join User T_MUser_MangerUser_Modifer with sysConfig.modifier = T_MUser_MangerUser_Modifer.id
+2020-12-11 13:59:55,693 [restartedMain] INFO  s.f.jpaquery.repository.SwallBaseRepository:160 - 初始化SwallBaseRepository(com.tware.config.repository.SysExternalConfigRepository)查询语句为:select sysExternalConfig, T_MUser_MangerUser_Creator.name, T_MUser_MangerUser_Modifer.name
+from SysExternalConfig sysExternalConfig
+  left join User T_MUser_MangerUser_Creator with sysExternalConfig.creator = T_MUser_MangerUser_Creator.id
+  left join User T_MUser_MangerUser_Modifer with sysExternalConfig.modifier = T_MUser_MangerUser_Modifer.id
+2020-12-11 13:59:55,709 [restartedMain] INFO  s.f.jpaquery.repository.SwallBaseRepository:160 - 初始化SwallBaseRepository(com.tware.student.repository.SysStudentRepository)查询语句为:select sysStudent, sysOrg.name, sysKindergarten.name, T_MUser_MangerUser_Creator.name, T_MUser_MangerUser_Modifer.name
+from SysStudent sysStudent
+  left join SysOrg sysOrg with sysStudent.orgId = sysOrg.orgId
+  left join SysKindergarten sysKindergarten with sysStudent.oldOrgId = sysKindergarten.orgId
+  left join User T_MUser_MangerUser_Creator with sysStudent.creator = T_MUser_MangerUser_Creator.id
+  left join User T_MUser_MangerUser_Modifer with sysStudent.modifier = T_MUser_MangerUser_Modifer.id
+2020-12-11 13:59:55,725 [restartedMain] INFO  s.f.jpaquery.repository.SwallBaseRepository:160 - 初始化SwallBaseRepository(com.tware.student.repository.SysStudentAdjustRecordRepository)查询语句为:select sysStudentAdjustRecord, T_MUser_MangerUser_Creator.name, T_MUser_MangerUser_Modifer.name
+from SysStudentAdjustRecord sysStudentAdjustRecord
+  left join User T_MUser_MangerUser_Creator with sysStudentAdjustRecord.creator = T_MUser_MangerUser_Creator.id
+  left join User T_MUser_MangerUser_Modifer with sysStudentAdjustRecord.modifier = T_MUser_MangerUser_Modifer.id
+2020-12-11 13:59:55,761 [restartedMain] INFO  s.f.jpaquery.repository.SwallBaseRepository:160 - 初始化SwallBaseRepository(com.tware.config.repository.SpResultsRepository)查询语句为:select spResults
+from SpResults spResults
+2020-12-11 13:59:55,783 [restartedMain] INFO  s.f.jpaquery.repository.SwallBaseRepository:160 - 初始化SwallBaseRepository(com.tware.sysTeacherStaff.repository.SysTeacherStaffRepository)查询语句为:select sysTeacherStaff, sysOrg.name, T_MUser_MangerUser_Creator.name, T_MUser_MangerUser_Modifer.name
+from SysTeacherStaff sysTeacherStaff
+  left join SysOrg sysOrg with sysTeacherStaff.orgId = sysOrg.orgId
+  left join User T_MUser_MangerUser_Creator with sysTeacherStaff.creator = T_MUser_MangerUser_Creator.id
+  left join User T_MUser_MangerUser_Modifer with sysTeacherStaff.modifier = T_MUser_MangerUser_Modifer.id
+2020-12-11 13:59:56,621 [restartedMain] INFO  s.f.jpaquery.repository.SwallBaseRepository:160 - 初始化SwallBaseRepository(com.tware.log.repository.SysExternalLogRepository)查询语句为:select sysExternalLog
+from SysExternalLog sysExternalLog
+2020-12-11 13:59:56,717 [restartedMain] INFO  s.f.jpaquery.repository.SwallBaseRepository:160 - 初始化SwallBaseRepository(com.tware.log.repository.LogOperationRepository)查询语句为:select logOperation, sysOrg.name, T_MUser_MangerUser_Creator.name, T_MUser_MangerUser_Modifer.name
+from LogOperation logOperation
+  left join SysOrg sysOrg with logOperation.orgId = sysOrg.orgId
+  left join User T_MUser_MangerUser_Creator with logOperation.creator = T_MUser_MangerUser_Creator.id
+  left join User T_MUser_MangerUser_Modifer with logOperation.modifier = T_MUser_MangerUser_Modifer.id
+2020-12-11 13:59:56,736 [restartedMain] INFO  s.f.jpaquery.repository.SwallBaseRepository:160 - 初始化SwallBaseRepository(com.tware.menu.repository.MenuRepository)查询语句为:select menu, T_MUser_MangerUser_Creator.name, T_MUser_MangerUser_Modifer.name
+from Menu menu
+  left join Menu T_Parent_Menu with menu.parentId = T_Parent_Menu.id
+  left join User T_MUser_MangerUser_Creator with menu.creator = T_MUser_MangerUser_Creator.id
+  left join User T_MUser_MangerUser_Modifer with menu.modifier = T_MUser_MangerUser_Modifer.id
+2020-12-11 13:59:56,748 [restartedMain] INFO  s.f.jpaquery.repository.SwallBaseRepository:160 - 初始化SwallBaseRepository(com.tware.menu.repository.MenuToRoleRepository)查询语句为:select menuToRole, T_MUser_MangerUser_Creator.name, T_MUser_MangerUser_Modifer.name
+from MenuToRole menuToRole
+  left join User T_MUser_MangerUser_Creator with menuToRole.creator = T_MUser_MangerUser_Creator.id
+  left join User T_MUser_MangerUser_Modifer with menuToRole.modifier = T_MUser_MangerUser_Modifer.id
+2020-12-11 13:59:56,764 [restartedMain] INFO  s.f.jpaquery.repository.SwallBaseRepository:160 - 初始化SwallBaseRepository(com.tware.menu.repository.MenuToUserRepository)查询语句为:select menuToUser, T_MUser_MangerUser_Creator.name, T_MUser_MangerUser_Modifer.name
+from MenuToUser menuToUser
+  left join User T_MUser_MangerUser_Creator with menuToUser.creator = T_MUser_MangerUser_Creator.id
+  left join User T_MUser_MangerUser_Modifer with menuToUser.modifier = T_MUser_MangerUser_Modifer.id
+2020-12-11 13:59:56,792 [restartedMain] INFO  s.f.jpaquery.repository.SwallBaseRepository:160 - 初始化SwallBaseRepository(com.tware.permission.repository.PermissionRepository)查询语句为:select permission, T_MUser_MangerUser_Creator.name, T_MUser_MangerUser_Modifer.name
+from Permission permission
+  left join User T_MUser_MangerUser_Creator with permission.creator = T_MUser_MangerUser_Creator.id
+  left join User T_MUser_MangerUser_Modifer with permission.modifier = T_MUser_MangerUser_Modifer.id
+2020-12-11 13:59:56,809 [restartedMain] INFO  s.f.jpaquery.repository.SwallBaseRepository:160 - 初始化SwallBaseRepository(com.tware.role.repository.RoleRepository)查询语句为:select role, T_MUser_MangerUser_Creator.name, T_MUser_MangerUser_Modifer.name
+from Role role
+  left join User T_MUser_MangerUser_Creator with role.creator = T_MUser_MangerUser_Creator.id
+  left join User T_MUser_MangerUser_Modifer with role.modifier = T_MUser_MangerUser_Modifer.id
+2020-12-11 13:59:56,855 [restartedMain] INFO  s.f.jpaquery.repository.SwallBaseRepository:160 - 初始化SwallBaseRepository(com.tware.sysTeacherStaff.repository.SysTeacherZhuanChuRepository)查询语句为:select sysTeacherZhuanChu, T_Before.name, T_MUser_MangerUser_Creator.name, T_MUser_MangerUser_Modifer.name
+from SysTeacherZhuanChu sysTeacherZhuanChu
+  left join SysOrg T_Before with sysTeacherZhuanChu.orgIdBefore = T_Before.orgId
+  left join User T_MUser_MangerUser_Creator with sysTeacherZhuanChu.creator = T_MUser_MangerUser_Creator.id
+  left join User T_MUser_MangerUser_Modifer with sysTeacherZhuanChu.modifier = T_MUser_MangerUser_Modifer.id
+2020-12-11 13:59:56,874 [restartedMain] INFO  s.f.jpaquery.repository.SwallBaseRepository:160 - 初始化SwallBaseRepository(com.tware.sysTeacherStaff.repository.SysTeacherZhuanRuRepository)查询语句为:select sysTeacherZhuanRu, T_Before.name, T_Now.name, T_MUser_MangerUser_Creator.name, T_MUser_MangerUser_Modifer.name
+from SysTeacherZhuanRu sysTeacherZhuanRu
+  left join SysOrg T_Before with sysTeacherZhuanRu.orgIdBefore = T_Before.orgId
+  left join SysOrg T_Now with sysTeacherZhuanRu.orgIdNow = T_Now.orgId
+  left join User T_MUser_MangerUser_Creator with sysTeacherZhuanRu.creator = T_MUser_MangerUser_Creator.id
+  left join User T_MUser_MangerUser_Modifer with sysTeacherZhuanRu.modifier = T_MUser_MangerUser_Modifer.id
+2020-12-11 13:59:56,902 [restartedMain] INFO  s.f.jpaquery.repository.SwallBaseRepository:160 - 初始化SwallBaseRepository(com.tware.user.repository.RolePermissionRelationRepository)查询语句为:select rolePermissionRelation, T_MUser_MangerUser_Creator.name, T_MUser_MangerUser_Modifer.name
+from RolePermissionRelation rolePermissionRelation
+  left join User T_MUser_MangerUser_Creator with rolePermissionRelation.creator = T_MUser_MangerUser_Creator.id
+  left join User T_MUser_MangerUser_Modifer with rolePermissionRelation.modifier = T_MUser_MangerUser_Modifer.id
+2020-12-11 13:59:57,324 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration:226 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-11 13:59:57,572 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-12-11 13:59:57,966 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11 13:59:58,044 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer:60 - Unable to start LiveReload server
+2020-12-11 13:59:58,612 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler:171 - Initializing ExecutorService 'taskScheduler'
+2020-12-11 13:59:58,719 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2020-12-11 13:59:58,752 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2020-12-11 13:59:58,794 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2020-12-11 13:59:59,057 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_1
+2020-12-11 13:59:59,078 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_1
+2020-12-11 13:59:59,079 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_1
+2020-12-11 13:59:59,081 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_1
+2020-12-11 13:59:59,083 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_1
+2020-12-11 13:59:59,085 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_1
+2020-12-11 13:59:59,086 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_1
+2020-12-11 13:59:59,088 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_1
+2020-12-11 13:59:59,090 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_1
+2020-12-11 13:59:59,099 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_2
+2020-12-11 13:59:59,124 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_2
+2020-12-11 13:59:59,125 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_2
+2020-12-11 13:59:59,126 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_2
+2020-12-11 13:59:59,128 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_2
+2020-12-11 13:59:59,128 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_2
+2020-12-11 13:59:59,129 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_2
+2020-12-11 13:59:59,130 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_2
+2020-12-11 13:59:59,132 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_2
+2020-12-11 13:59:59,139 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_3
+2020-12-11 13:59:59,165 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_4
+2020-12-11 13:59:59,170 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryListUsingPOST_1
+2020-12-11 13:59:59,253 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_3
+2020-12-11 13:59:59,254 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_3
+2020-12-11 13:59:59,254 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_3
+2020-12-11 13:59:59,256 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_3
+2020-12-11 13:59:59,257 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_3
+2020-12-11 13:59:59,259 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_3
+2020-12-11 13:59:59,260 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_3
+2020-12-11 13:59:59,261 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_3
+2020-12-11 13:59:59,275 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_5
+2020-12-11 13:59:59,278 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryListUsingPOST_2
+2020-12-11 13:59:59,320 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_1
+2020-12-11 13:59:59,324 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: exportExcelUsingGET_1
+2020-12-11 13:59:59,325 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: exportExcelUsingHEAD_1
+2020-12-11 13:59:59,326 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: exportExcelUsingPOST_1
+2020-12-11 13:59:59,327 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: exportExcelUsingPUT_1
+2020-12-11 13:59:59,328 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: exportExcelUsingPATCH_1
+2020-12-11 13:59:59,328 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: exportExcelUsingDELETE_1
+2020-12-11 13:59:59,329 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: exportExcelUsingOPTIONS_1
+2020-12-11 13:59:59,330 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: exportExcelUsingTRACE_1
+2020-12-11 13:59:59,354 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_4
+2020-12-11 13:59:59,355 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_4
+2020-12-11 13:59:59,355 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_4
+2020-12-11 13:59:59,356 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_4
+2020-12-11 13:59:59,357 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_4
+2020-12-11 13:59:59,358 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_4
+2020-12-11 13:59:59,359 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_4
+2020-12-11 13:59:59,360 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_4
+2020-12-11 13:59:59,369 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: importExcelUsingGET_1
+2020-12-11 13:59:59,370 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: importExcelUsingHEAD_1
+2020-12-11 13:59:59,370 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: importExcelUsingPOST_1
+2020-12-11 13:59:59,371 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: importExcelUsingPUT_1
+2020-12-11 13:59:59,372 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: importExcelUsingPATCH_1
+2020-12-11 13:59:59,372 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: importExcelUsingDELETE_1
+2020-12-11 13:59:59,373 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: importExcelUsingOPTIONS_1
+2020-12-11 13:59:59,374 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: importExcelUsingTRACE_1
+2020-12-11 13:59:59,382 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_6
+2020-12-11 13:59:59,445 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: actStatusUsingPOST_1
+2020-12-11 13:59:59,450 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: exportExcelApplyResultsUsingPOST_1
+2020-12-11 13:59:59,455 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_5
+2020-12-11 13:59:59,482 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: importExcelUsingGET_2
+2020-12-11 13:59:59,483 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: importExcelUsingHEAD_2
+2020-12-11 13:59:59,483 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: importExcelUsingPOST_2
+2020-12-11 13:59:59,484 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: importExcelUsingPUT_2
+2020-12-11 13:59:59,484 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: importExcelUsingPATCH_2
+2020-12-11 13:59:59,485 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: importExcelUsingDELETE_2
+2020-12-11 13:59:59,486 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: importExcelUsingOPTIONS_2
+2020-12-11 13:59:59,486 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: importExcelUsingTRACE_2
+2020-12-11 13:59:59,491 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_7
+2020-12-11 13:59:59,493 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryApplyResultsUsingPOST_1
+2020-12-11 13:59:59,535 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getImageCheckCodeUsingGET_1
+2020-12-11 13:59:59,536 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getImageCheckCodeUsingGET_2
+2020-12-11 13:59:59,538 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getImageCheckCodeUsingGET_3
+2020-12-11 13:59:59,539 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getImageCheckCodeUsingGET_4
+2020-12-11 13:59:59,540 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getImageCheckCodeUsingGET_5
+2020-12-11 13:59:59,540 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getImageCheckCodeUsingGET_6
+2020-12-11 13:59:59,541 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getImageCheckCodeUsingGET_7
+2020-12-11 13:59:59,568 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_6
+2020-12-11 13:59:59,568 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_5
+2020-12-11 13:59:59,569 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_5
+2020-12-11 13:59:59,569 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_5
+2020-12-11 13:59:59,570 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_5
+2020-12-11 13:59:59,576 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_5
+2020-12-11 13:59:59,577 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_5
+2020-12-11 13:59:59,578 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_5
+2020-12-11 13:59:59,588 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getUserInfoUsingGET_1
+2020-12-11 13:59:59,589 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getUserInfoUsingHEAD_1
+2020-12-11 13:59:59,589 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getUserInfoUsingPOST_1
+2020-12-11 13:59:59,590 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getUserInfoUsingPUT_1
+2020-12-11 13:59:59,591 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getUserInfoUsingPATCH_1
+2020-12-11 13:59:59,591 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getUserInfoUsingDELETE_1
+2020-12-11 13:59:59,592 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getUserInfoUsingOPTIONS_1
+2020-12-11 13:59:59,592 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getUserInfoUsingTRACE_1
+2020-12-11 13:59:59,599 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_8
+2020-12-11 13:59:59,632 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9500"]
+2020-12-11 13:59:59,702 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9500 (http) with context path ''
+2020-12-11 13:59:59,706 [restartedMain] INFO  com.tware.PreeduWebServerApplication:59 - Started PreeduWebServerApplication in 10.572 seconds (JVM running for 12.832)
+2020-12-11 13:59:59,708 [restartedMain] INFO  com.tware.config.springboot.InitListenter:21 - Spring Boot 启动完成
+2020-12-11 14:00:20,209 [http-nio-9500-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-11 14:00:20,210 [http-nio-9500-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2020-12-11 14:00:20,244 [http-nio-9500-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 34 ms
+2020-12-11 14:00:20,361 [http-nio-9500-exec-2] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager:233 - Enabling session validation scheduler...
+2020-12-11 15:00:20,406 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager:275 - Validating all active sessions...
+2020-12-11 15:00:20,506 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager:308 - Finished session validation.  No sessions were stopped.
+2020-12-11 16:00:20,449 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager:275 - Validating all active sessions...
+2020-12-11 16:00:20,473 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager:308 - Finished session validation.  No sessions were stopped.
+2020-12-11 17:00:20,492 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager:275 - Validating all active sessions...
+2020-12-11 17:00:20,503 [SessionValidationThread-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager:308 - Finished session validation.  No sessions were stopped.
+2020-12-11 17:07:39,611 [Thread-6] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler:208 - Shutting down ExecutorService 'taskScheduler'
+2020-12-11 17:07:39,613 [Thread-6] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-11 17:07:39,652 [Thread-6] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-11 17:07:39,655 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2020-12-11 17:07:39,663 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
